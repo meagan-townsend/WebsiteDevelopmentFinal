@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!-- Final Project- Portfolio Website
+    Code written by Meagan Townsend
+    Nov 11th, 2022
+    WEBD1000 
+    IT-Programming -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meagan Townsend</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="Homepage.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">WHAT I CAN DO</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+      <h1>Meagan Townsend</h1>
+    </div>
+
+    <!-- About Me -->
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2>About Me</h2>
+          <br />
+          <h4>
+            I'm an aspiring programmer in my first year of a 2 year Programming
+            diploma at the Nova Scotia Community College.
+          </h4>
+          <br />
+          <p>
+            I currently live in Falmouth Nova Scotia with my wife Kathryn, our
+            Border Collie Sadie, and our 4 cats. When I'm not coding, I can be
+            found working on my many crochet projects, playing the occassional
+            video game, and dreaming up yet another DnD character.
+          </p>
+          <br />
+        </div>
+        <div class="col-sm-4">
+          <div class="photo"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-grey">
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="photo2" />
+        </div>
+        <div class="col-sm-8">
+          <h2>My Values</h2>
+          <br />
+          <h4>
+            Celebrating everyones differences and what makes them themselves is
+            critical. It is important that I strive to be an ally and create
+            content that is both welcoming and engaging to everyone.
+          </h4>
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!-- What I can do -->
+    <div id="services" class="container-fluid text-center">
+      <h2>What I can do</h2>
+      <h4>Programming Languages I'm familiar with:</h4>
+      <br />
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <img class="photo3" />
+          <h4>Java</h4>
+        </div>
+        <div class="col-sm-4">
+          <img class="photo4" />
+          <h4>HTML</h4>
+        </div>
+        <div class="col-sm-4">
+          <img class="photo5" />
+          <h4>CSS</h4>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <img class="photo6" />
+          <h4>Bootstrap</h4>
+        </div>
+        <div class="col-sm-4">
+          <img class="photo7" />
+          <h4>SQL</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+      <h2>Portfolio</h2>
+      <br />
+      <h4>Some things I've coded</h4>
+      <div class="row text-center slideanim">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="login.png" alt="Paris" width="400" height="300" />
+            <p><strong>HTML/CSS/Bootstrap</strong></p>
+            <p>A login page as part of a hospital website</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="data_relationships.png"
+              alt="New York"
+              width="400"
+              height="300"
+            />
+            <p><strong>SQL</strong></p>
+            <p>Hospital Database</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img
+              src="guides.png"
+              alt="San Francisco"
+              width="400"
+              height="100"
+            />
+            <p><strong>Java</strong></p>
+            <p>
+              Program to record number and name of guides, how many boxes they
+              sold, and what prizes they win
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+
+    <!-- Contact  -->
+    <div id="contact" class="container-fluid bg-grey">
+      <h2 class="text-center">CONTACT</h2>
+      <div class="row">
+        <div class="col-sm-5">
+          <p>Want to collaborate?</p>
+          <p>
+            <span class="glyphicon glyphicon-map-marker"></span> Falmouth, NS
+          </p>
+          <p>
+            <span class="glyphicon glyphicon-phone"></span> +1 (902) 789-5943
+          </p>
+          <p>
+            <span class="glyphicon glyphicon-envelope"></span>
+            meagan.townsend337@gmail.com
+          </p>
+        </div>
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+            </div>
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+          <textarea
+            class="form-control"
+            id="comments"
+            name="comments"
+            placeholder="Comment"
+            rows="5"
+          ></textarea
+          ><br />
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+      <a href="Homepage.html" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+        Back To Top
+      </a>
+    </footer>
+    <!-- Smooth Scroll -->
+    <script>
+      $(document).ready(function () {
+        $(".navbar a, footer a[href='#myPage']").on("click", function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              900,
+              function () {
+                window.location.hash = hash;
+              }
+            );
+          }
+        });
+
+        $(window).scroll(function () {
+          $(".slideanim").each(function () {
+            var pos = $(this).offset().top;
+
+            var winTop = $(window).scrollTop();
+            if (pos < winTop + 600) {
+              $(this).addClass("slide");
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
